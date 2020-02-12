@@ -1,0 +1,17 @@
+{
+  "type": "",
+  "host": "",
+  "port": 3306,
+  "username": "",
+  "password": "",
+  "database": "",
+  "synchronize": true,
+  "logging": false,
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ]
+}
